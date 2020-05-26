@@ -7,6 +7,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.app.common.Constance;
 import com.app.common.util.ToastUtils;
+import com.app.home.R2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import butterknife.BindView;
@@ -22,6 +23,7 @@ public class UserActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_user);
         ButterKnife.bind(this);
     }
