@@ -1,2 +1,3 @@
 rootProject.name='BibraryCommon'
 include ':app'
+include ':library-common'

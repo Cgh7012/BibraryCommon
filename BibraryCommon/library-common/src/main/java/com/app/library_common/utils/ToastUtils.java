@@ -1,4 +1,4 @@
-package com.app.bibrarycommon.utils;
+package com.app.library_common.utils;
 
 import android.content.Context;
 import android.widget.Toast;
